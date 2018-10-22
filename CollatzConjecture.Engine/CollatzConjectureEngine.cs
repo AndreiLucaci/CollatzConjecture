@@ -13,18 +13,19 @@ namespace CollatzConjecture.Engine
         {
             while (true)
             {
-                var intermediary = number % 2 == 0 ? number : 3 * number + 1;
-                var next = intermediary / 2;
-
-                Console.WriteLine($"[{step}]: {number} => {intermediary} => {next}");
-
                 if (number == 1)
                 {
                     return step;
                 }
 
+                var isEven = number % 2 == 0;
+                var intermediary =  isEven ? number : 3 * number + 1;
+                var next = intermediary / 2;
+
+                Console.WriteLine($"[{step}]: {number} => {intermediary} => {next}");
+
                 number = next;
-                step = ++step;
+                step = isEven ? step + 2 : step + 1;
             }
         }
     }
