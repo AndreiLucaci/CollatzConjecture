@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\CollatzConjecture.Engine\CollatzConjecture.Engine.csproj" />
+    <ProjectReference Include="..\CollatzConjecture.Engine\CollatzConjecture.Engine.csproj" />
   </ItemGroup>
 
 </Project>

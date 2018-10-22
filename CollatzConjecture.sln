@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollatzConjecture", "CollatzConjecture\CollatzConjecture.csproj", "{3CC4C551-EEBA-487F-8EB6-87ECF39608EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollatzConjecture.Engine", "..\CollatzConjecture.Engine\CollatzConjecture.Engine.csproj", "{58CC9DE7-1911-4C8B-873F-9AAF8A901EBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollatzConjecture.Engine", "CollatzConjecture.Engine\CollatzConjecture.Engine.csproj", "{F990574E-6C4F-4949-AE01-722537091CA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{3CC4C551-EEBA-487F-8EB6-87ECF39608EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CC4C551-EEBA-487F-8EB6-87ECF39608EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CC4C551-EEBA-487F-8EB6-87ECF39608EF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{58CC9DE7-1911-4C8B-873F-9AAF8A901EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{58CC9DE7-1911-4C8B-873F-9AAF8A901EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{58CC9DE7-1911-4C8B-873F-9AAF8A901EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{58CC9DE7-1911-4C8B-873F-9AAF8A901EBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F990574E-6C4F-4949-AE01-722537091CA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F990574E-6C4F-4949-AE01-722537091CA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F990574E-6C4F-4949-AE01-722537091CA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F990574E-6C4F-4949-AE01-722537091CA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
